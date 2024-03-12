@@ -1,0 +1,44 @@
+.card {
+    width: 50rem;
+    margin-top: 5rem;
+    height: 25rem;
+}
+
+html {
+    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/free-vector/gradient-galaxy-background_23-2148965436.jpg?t=st=1710270810~exp=1710274410~hmac=0fa34c0d48e95080c4d6a85a40ca8543f3d7bded0518bf527ddcccb89f02522b&w=1500');
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/free-vector/gradient-galaxy-background_23-2148965436.jpg?t=st=1710270810~exp=1710274410~hmac=0fa34c0d48e95080c4d6a85a40ca8543f3d7bded0518bf527ddcccb89f02522b&w=1500');
+  }
+
+
+.login {
+
+    background-color: #09111c;
+}
+
+.mb-3 {
+
+    width: 22rem;
+}
+
+.cardStyle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardLogin {
+    display: flex;
+    align-items: center;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }

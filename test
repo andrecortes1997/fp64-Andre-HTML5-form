@@ -1,0 +1,27 @@
+<div class="login">
+    <div class="card flex-row">
+        <img class="card-img-left img-fluid"
+            src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Responsive image" />
+        <div class="card-body text-white cardStyle">
+            <h1 class="card-title ">Login</h1>
+            <h6 class="card-subtitle mb-2 ">Welcome back! Please Login to your account.</h6>
+            <button type="button" class="btn btn-outline-light"><i class="bi bi-google"></i></i> Sign in with
+                Google</button>
+            <h6>OR</h6>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                <button type="button" class="btn btn-link text-secondary text-right">Forgot Password?</button>
+            </div>
+        </div>
+    </div>
+</div>
