@@ -1,22 +1,41 @@
 .card {
-    width: 50rem;
+    width: 58rem;
     margin-top: 5rem;
-    height: 31rem;
+    height: 39rem;
+    background-color: rgba(0,0,0,0.5) !important
+}
+
+.form-control::placeholder { 
+    color: lightgrey;
+    opacity: 1; 
+}
+
+.font{
+    font-family: "Kalam";
+}
+
+.fontSize{
+    font-size: l;
+}
+
+.carousel1st{
+    top: 0;
+    bottom: auto;
 }
 
 html {
     background-repeat: no-repeat;
-    background-image: url('https://img.freepik.com/free-vector/gradient-galaxy-background_23-2148965436.jpg?t=st=1710270810~exp=1710274410~hmac=0fa34c0d48e95080c4d6a85a40ca8543f3d7bded0518bf527ddcccb89f02522b&w=1500');
+    background-image: url('https://img.freepik.com/free-vector/asteroid-space-background_1308-33879.jpg?t=st=1710310296~exp=1710313896~hmac=6843491197c2dd5d625b74cb863105cfe031ca1ef28c754799ae704248a66dba&w=1800');
   }
 
   body {
     background-repeat: no-repeat;
-    background-image: url('https://img.freepik.com/free-vector/gradient-galaxy-background_23-2148965436.jpg?t=st=1710270810~exp=1710274410~hmac=0fa34c0d48e95080c4d6a85a40ca8543f3d7bded0518bf527ddcccb89f02522b&w=1500');
+    background-image: url('https://img.freepik.com/free-vector/asteroid-space-background_1308-33879.jpg?t=st=1710310296~exp=1710313896~hmac=6843491197c2dd5d625b74cb863105cfe031ca1ef28c754799ae704248a66dba&w=1800');
   }
 
   .no-border {
     border: 0;
-    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+    box-shadow: none;
 }
 
 .legend{
@@ -62,4 +81,8 @@ html {
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
+  }
+  .pic{
+    height: 38rem;
+
   }
