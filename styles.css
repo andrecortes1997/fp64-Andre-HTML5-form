@@ -14,6 +14,27 @@ html {
     background-image: url('https://img.freepik.com/free-vector/gradient-galaxy-background_23-2148965436.jpg?t=st=1710270810~exp=1710274410~hmac=0fa34c0d48e95080c4d6a85a40ca8543f3d7bded0518bf527ddcccb89f02522b&w=1500');
   }
 
+  .no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+.legend{
+    margin-left: -8rem;
+    font-size: 15px;
+}
+
+.margin{
+    margin-top: -23px;
+}
+
+.marginCheck{
+    margin-left: -55px;
+}
+
+.tall{
+    height: -1px;
+}
 
 .login {
 
