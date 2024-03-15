@@ -25,80 +25,81 @@
                     <div class="row col-4 p-2 flex-fill">
                         <h1 class="card-title font text-light">Share a Coffee to our Space Community! <i
                                 class="fa-solid fa-user-astronaut text-light"></i></h1>
-                        <h6 class="card-subtitle mb-2 font text-light">Only true heroes are part of the CREW!<i
+                        <h6 class="card-subtitle mb-2 font text-danger">DO NOT SHARE YOUR CARD DETAILS! <i
                                 class="far fa-smile-beam fa-spin"></i></h6>
                         <!----------------- Inputs------------------------->
-
-                        <!----------------- Inputs------------------------->
-                        <form class="row g-3">
+                        <form class="row g-3" method="POST">
                             <div class="row g-3">
                                 <div class="col-sm-7">
-                                    <label for="CardNumber" class="form-label d-flex justify-content-start">Card
+                                    <label id="CardNumber" for="CardNumber" class="form-label d-flex justify-content-start text-light">Card
                                         #</label>
-                                    <input type="text" class="form-control" placeholder="xxxxxxxxxxxx"
-                                        aria-label="City">
+                                    <input name="card" type="number" class="form-control bg-transparent text-light" placeholder="xxxxxxxxxxxx"
+                                        aria-label="card" id="CardNumber">
                                 </div>
                                 <div class="col-sm-2">
-                                    <label for="CVCInput" class="form-label d-flex justify-content-start">CVC #</label>
-                                    <input type="text" class="form-control" placeholder="0000" aria-label="State">
+                                    <label id="CVCInput" for="CVCInput" class="form-label d-flex justify-content-start text-light">CVC #</label>
+                                    <input name="cvc" type="number" class="form-control bg-transparent text-light" placeholder="000" aria-label="State">
                                 </div>
                                 <div class="col-sm-3">
-                                    <label for="AmountInput" class="form-label d-flex justify-content-start">Amount</label>
+                                    <label id="AmountInput" for="AmountInput" class="form-label d-flex justify-content-start text-light">Amount</label>
                                     <label  class="form-label d-flex justify-content-start" style="
                                     margin-left: -7px;">$</label>
-                                    <input type="text" class="form-control" placeholder="0000" aria-label="State" style="
+                                    <input name="amount" id="AmountInput" type="number" class="form-control bg-transparent text-light" placeholder="0000" aria-label="State" style="
                                     margin-top: -2rem;">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <label for="inputEmail4" class="form-label d-flex justify-content-start">First Name</label>
-                                <input type="email" class="form-control" id="inputEmail4">
+                                <label for="inputName" class="form-label d-flex justify-content-start text-light">First Name</label>
+                                <input name="FirstName" type="text" class="form-control bg-transparent text-light" id="inputName" placeholder="Your name here">
                             </div>
                             <div class="col-md-6">
-                                <label for="inputPassword4" class="form-label d-flex justify-content-start">Last Name</label>
-                                <input type="password" class="form-control" id="inputPassword4">
+                                <label for="inputLastName" class="form-label d-flex justify-content-start text-light">Last Name</label>
+                                <input name="LastName" type="text" class="form-control bg-transparent text-light" id="inputLastName" placeholder="Your last name here">
                             </div>
                             <div class="col-md-6">
-                                <label for="inputCity" class="form-label d-flex justify-content-start">City</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <label for="inputCity" class="form-label d-flex justify-content-start text-light">City</label>
+                                <input name="city" type="text" class="form-control bg-transparent text-light" id="inputCity" placeholder="Your city...">
                             </div>
                             <div class="col-md-4">
-                                <label for="inputState" class="form-label d-flex justify-content-start">State</label>
-                                <select id="inputState" class="form-select">
+                                <label for="inputState" class="form-label d-flex justify-content-start text-light">State</label>
+                                <select name="state" id="inputState" class="form-select bg-transparent text-light">
                                     <option selected>Choose...</option>
                                     <option>...</option>
                                 </select>
                             </div>
                             <div class="col-md-2">
-                                <label for="inputZip" class="form-label d-flex justify-content-start">Postal Code</label>
-                                <input type="text" class="form-control" id="inputZip">
+                                <label for="inputZip" class="form-label d-flex justify-content-start text-light">Postal Code</label>
+                                <input name="PostalCode" type="text" class="form-control bg-transparent text-light" id="inputZip">
                             </div>
                             <div class="col-md-6 g-5">
-                                <label for="inputMessage" class="form-label d-flex justify-content-start">We Accept:</label>
+                                <label for="inputMessage" class="form-label d-flex justify-content-start text-light">We Accept:</label>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <input name="option1" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1"><img src="https://img.icons8.com/color/36/000000/visa.png"></label>
                                   </div>
                                   <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <input name="option2" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                                     <label class="form-check-label" for="inlineRadio2"><img src="https://img.icons8.com/color/36/000000/mastercard.png"></label>
                                   </div>
                                   <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <input name="option3" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
                                     <label class="form-check-label" for="inlineRadio3"><img src="https://img.icons8.com/color/36/000000/amex.png"></label>
                                   </div>
                                   <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                    <input name="option4" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
                                     <label class="form-check-label" for="inlineRadio4"><img src="https://img.icons8.com/color/36/000000/paypal.png"></label>
                                   </div>
                             </div>
                             <div class="col-md-6" >
-                                <label for="inputMessage" class="form-label d-flex justify-content-start">Message</label>
-                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                                <label for="inputMessage" class="form-label d-flex justify-content-start text-light">Message</label>
+                                <textarea name="message" class="form-control bg-transparent text-light" aria-label="With textarea" placeholder="..."></textarea>
                               </div>
 
                             <div class="col-">
-                                <button type="submit" class="btn btn-primary">Sign in</button>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <button class="btn btn-secondary me-md-2 mt-auto p-2" type="button">Cancel</button>
+                                    <button class="btn btn-primary mt-auto p-2 submit" type="submit">Send</button>
+                                  </div>
                             </div>
                         </form>
                     </div>
