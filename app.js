@@ -1,13 +1,13 @@
 const togglePassword = document.querySelector("#togglePassword");
-const password = document.querySelector("#exampleInputPassword1");
+const exampleInputPassword2 = document.querySelector("#exampleInputPassword2");
 
 togglePassword.addEventListener("click", function () {
     // toggle the type attribute
-    const type = password.getAttribute("type") === "password" ? "text" : "password";
-    password.setAttribute("type", type);
+    const type = exampleInputPassword2.getAttribute("type") === "password" ? "text" : "password";
+    exampleInputPassword2.setAttribute("type", type);
     
     // toggle the icon
-    this.classList.toggle("bi-eye");
+    this.classList.toggle("bi-eye-fill");
 });
 
 // prevent form submit
