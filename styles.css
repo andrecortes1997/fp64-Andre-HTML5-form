@@ -23,8 +23,8 @@
     bottom: auto;
 }
 
-body{
-    background-color: transparent !important
+.d-flex {
+    background-color: #060606ba !important;
 }
 
 
